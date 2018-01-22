@@ -1,6 +1,5 @@
 function basicInfo(){
     $.ajax({url : "data/basic.json", success: function(result){
-        console.log(result);
         var info = result;
         $("#avatar").attr("src","images/"+info.avatar);
         $("#profile-name").html(info.name);
@@ -16,7 +15,7 @@ function basicInfo(){
 
 function majorSkills(){
     $.ajax({url : "data/majorskill.json", success : function(result){
-        var info = JSON.parse(result);
+        var info = result;
         for(var i=0; i<info.length; i++){
             var value = '<p>'+info[i].title+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge w3-small">'+
@@ -29,7 +28,7 @@ function majorSkills(){
 
 function languages(){
     $.ajax({url : "data/languages.json", success : function(result){
-        var info = JSON.parse(result);
+        var info = result;
         for(var i=0; i<info.length; i++){
             var value = '<p>'+info[i].language+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge">'+
@@ -42,7 +41,7 @@ function languages(){
 
 function workInfo(){
     $.ajax({url : "data/work.json", success : function(result){
-        var info = JSON.parse(result);
+        var info = result;
         for(var i=0; i<info.length; i++){ 
             var duration = "";
             if(i == 0){
@@ -64,7 +63,7 @@ function workInfo(){
 
 function educationInfo(){
     $.ajax({url : "data/education.json", success : function(result){
-        var info = JSON.parse(result);
+        var info = result;
         for(var i=0; i<info.length; i++){   
             var value = '<div class="w3-container">'+
                             '<h5 class="w3-opacity"><b>'+info[i].level+'</b></h5>'+
@@ -78,7 +77,7 @@ function educationInfo(){
 
 function allSkills(){
     $.ajax({url : "data/allskill.json", success : function(result){
-        var info = JSON.parse(result);
+        var info = result;
         for(var i=0; i<info.length; i++){   
             var value = '<p>'+info[i].skill+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin">'+
@@ -95,7 +94,7 @@ function allSkills(){
 
 function socialMedias(){
     $.ajax({url : "data/social.json", success : function(result){
-        var info = JSON.parse(result);
+        var info = result;
         for(var i=0; i<info.length; i++){   
             var value = '<a href="'+info[i].link+'" target="_blank"> &nbsp; <i class="fa s-m-i fa-3x fa-'+info[i].icon+' w3-hover-opacity"></i> &nbsp; </a>';
             $("#social-media-div").append(value);
