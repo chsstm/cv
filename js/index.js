@@ -1,6 +1,6 @@
 function basicInfo(){
     $.ajax({url : "data/basic.json", success: function(result){
-        var info = JSON.parse(result);
+        var info = result;
         $("#avatar").attr("src","images/"+info.avatar);
         $("#profile-name").html(info.name);
         $("#basic-info-div").append('<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.work+'</p>');
