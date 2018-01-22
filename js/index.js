@@ -67,8 +67,8 @@ function educationInfo(){
         for(var i=0; i<info.length; i++){   
             var value = '<div class="w3-container">'+
                             '<h5 class="w3-opacity"><b>'+info[i].level+'</b></h5>'+
-                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+info[i].duration+'</h6>'+
                             '<p class="w3-text-teal">'+info[i].trade+'</p>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+info[i].duration+'</h6>'+
                             '<p>'+info[i].college+'</p>'+
                             '<hr>'+
                         '</div>';
