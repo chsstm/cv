@@ -68,8 +68,8 @@ function educationInfo(){
             var value = '<div class="w3-container">'+
                             '<h5 class="w3-opacity"><b>'+info[i].level+'</b></h5>'+
                             '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+info[i].duration+'</h6>'+
-                            '<p>'+info[i].trade+'</p><br>'+
-                            '<p>'+info[i].college+'</p><br>'+
+                            '<p>'+info[i].trade+'</p>'+
+                            '<p>'+info[i].college+'</p>'+
                         '</div>';
             $("#education-div").append(value);
         }
