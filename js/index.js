@@ -1,7 +1,8 @@
 function basicInfo(){
     $.ajax({url : "data/basic.json", success: function(result){
         var info = result;
-        $("#avatar").attr("src","images/"+info.avatar);
+        $(".basic-info-placeholder").remove();
+        $("#avatar-div").html("<img src='images/"+info.avatar+"' style='width : 100%;'/>");
         $("#profile-name").html(info.name);
         $("#basic-info-div").append('<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.work+'</p>');
         $("#basic-info-div").append('<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.address+'</p>');
@@ -16,6 +17,7 @@ function basicInfo(){
 function majorSkills(){
     $.ajax({url : "data/majorskill.json", success : function(result){
         var info = result;
+        $(".major-skill-placeholder").remove();
         for(var i=0; i<info.length; i++){
             var value = '<p>'+info[i].title+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge w3-small">'+
@@ -29,6 +31,7 @@ function majorSkills(){
 function languages(){
     $.ajax({url : "data/languages.json", success : function(result){
         var info = result;
+        $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
             var value = '<p>'+info[i].language+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge">'+
@@ -42,6 +45,7 @@ function languages(){
 function workInfo(){
     $.ajax({url : "data/work.json", success : function(result){
         var info = result;
+        $(".work-placeholder").remove();
         for(var i=0; i<info.length; i++){ 
             var duration = "";
             if(i == 0){
@@ -64,6 +68,7 @@ function workInfo(){
 function educationInfo(){
     $.ajax({url : "data/education.json", success : function(result){
         var info = result;
+        $(".education-placeholder").remove();
         for(var i=0; i<info.length; i++){   
             var value = '<div class="w3-container">'+
                             '<h5 class="w3-opacity"><b>'+info[i].level+'</b></h5>'+
@@ -80,6 +85,7 @@ function educationInfo(){
 function allSkills(){
     $.ajax({url : "data/allskill.json", success : function(result){
         var info = result;
+        $(".all-skill-placeholder").remove();
         for(var i=0; i<info.length; i++){   
             var value = '<p>'+info[i].skill+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin">'+
@@ -97,6 +103,7 @@ function allSkills(){
 function socialMedias(){
     $.ajax({url : "data/social.json", success : function(result){
         var info = result;
+        $(".social-media-placeholder").remove();
         for(var i=0; i<info.length; i++){   
             var value = '<a href="'+info[i].link+'" target="_blank"> &nbsp; <i class="fa s-m-i fa-3x fa-'+info[i].icon+' w3-hover-opacity"></i> &nbsp; </a>';
             $("#social-media-div").append(value);
