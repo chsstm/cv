@@ -1,0 +1,14 @@
+[
+    {
+        "role" : "Internship",
+        "company" : "ChicMic, Mohali",
+        "duration" : "Jan 2018",
+        "description" : "I am currently training and working at backend using Node.js and its frameworks."
+    },
+    {
+        "role" : "Internship",
+        "company" : "Softwizz, Bathinda",
+        "duration" : "June 2016 - July 2016",
+        "description" : "I have completed 45 days of internship at this intstitute on Core Java and I developed a desktop applicaton for medical store."
+    }
+]

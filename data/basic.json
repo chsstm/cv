@@ -1,0 +1,17 @@
+{
+    "avatar" : "saimon.jpg",
+    "name" : "Saimon Thada Magar",
+    "work" : "Software Engineer",
+    "address" : "Rampur-4, Palpa, Nepal",
+    "email" : "magarchsstm@gmail.com",
+    "mobiles" : [
+        {
+            "country" : "np",
+            "number" : "+977-9867857067"
+        },
+        {
+            "country" : "in",
+            "number" : "+91-8699373303"
+        }
+    ]
+}

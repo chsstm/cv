@@ -1,0 +1,13 @@
+.name-text{
+    position: relative;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.s-m-i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration : none;
+}
