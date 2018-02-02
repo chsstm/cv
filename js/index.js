@@ -69,8 +69,7 @@ function hobbies(){
         var info = result;
         $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
-            var value = '<div class="w3-light-grey w3-center w3-round-xlarge w3-small w3-margin-bottom">'+
-                        '<div class="w3-container w3-teal" style="height:22px; width:5px">'+info[i].language+'</div>'+                        
+            var value = '<div class="w3-light-grey w3-center w3-round-xlarge w3-small w3-margin-bottom" style="border-left:5px solid black;">'+                        
                         info[i].hobby+
                         '</div>';
             $("#hobbies-div").append(value);
