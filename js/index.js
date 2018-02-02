@@ -33,9 +33,8 @@ function languages(){
         var info = result;
         $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
-            var value = '<p>'+info[i].language+'</p>'+
-                        '<div class="w3-light-grey w3-round-xlarge w3-small">'+
-                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:'+info[i].percent+'%">sdf</div>'+
+            var value = '<div class="w3-light-grey w3-round-xlarge w3-small">'+
+                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:24px; width:'+info[i].percent+'%">'+info[i].language+'</div>'+
                         '</div>';
             $("#languages-div").append(value);
         }
