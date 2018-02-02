@@ -40,6 +40,10 @@
         "percent" : 70
     },
     {
+        "skill" : "SQL",
+        "percent" : 75
+    },
+    {
         "skill" : "Blender",
         "percent" : 60
     },
