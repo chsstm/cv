@@ -14,6 +14,19 @@ function basicInfo(){
     }});
 }
 
+function languages(){
+    $.ajax({url : "data/languages.json", success : function(result){
+        var info = result;
+        $(".languages-placeholder").remove();
+        for(var i=0; i<info.length; i++){
+            var value = '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">'+
+                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 16px; line-height: 22px; height:22px; width:'+info[i].percent+'%">'+info[i].language+'</div>'+
+                        '</div>';
+            $("#languages-div").append(value);
+        }
+    }});
+}
+
 function majorSkills(){
     $.ajax({url : "data/majorskill.json", success : function(result){
         var info = result;
@@ -24,19 +37,6 @@ function majorSkills(){
                             '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:'+info[i].percent+'%">'+info[i].percent+'%</div>'+
                         '</div>';
             $("#major-skills-div").append(value);
-        }
-    }});
-}
-
-function languages(){
-    $.ajax({url : "data/languages.json", success : function(result){
-        var info = result;
-        $(".languages-placeholder").remove();
-        for(var i=0; i<info.length; i++){
-            var value = '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">'+
-                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 16px; line-height: 22px; height:22px; width:'+info[i].percent+'%">'+info[i].language+'</div>'+
-                        '</div>';
-            $("#languages-div").append(value);
         }
     }});
 }
@@ -62,6 +62,19 @@ function workInfo(){
             $("#work-div").append(value);
         }
     }});
+}
+
+function hobbies(){
+    $.ajax({url : "data/languages.json", success : function(result){
+        var info = result;
+        $(".languages-placeholder").remove();
+        for(var i=0; i<info.length; i++){
+            var value = '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">'+
+                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 16px; line-height: 22px; height:22px; width:100%">'+info[i].hobby+'</div>'+
+                        '</div>';
+            $("#hobbies-div").append(value);
+        }
+    }});    
 }
 
 function educationInfo(){
@@ -112,8 +125,9 @@ function socialMedias(){
 
 function setInfo(){
     basicInfo();
-    majorSkills();
     languages();
+    majorSkills();
+    hobbies();
     workInfo();
     educationInfo();
     allSkills();
