@@ -69,8 +69,9 @@ function hobbies(){
         var info = result;
         $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
-            var value = '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">'+
-                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 16px; line-height: 22px; height:22px; width:100%">'+info[i].hobby+'</div>'+
+            var value = '<div class="w3-light-grey w3-center w3-round-xlarge w3-small w3-margin-bottom">'+
+                        '<div class="w3-container w3-teal" style="height:22px; width:5px">'+info[i].language+'</div>'+                        
+                        info[i].hobby+
                         '</div>';
             $("#hobbies-div").append(value);
         }
