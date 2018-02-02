@@ -70,7 +70,7 @@ function educationInfo(){
         $(".education-placeholder").remove();
         for(var i=0; i<info.length; i++){   
             var value = '<div class="w3-container">'+
-                            '<h5 class="w3-opacity"><b>'+info[i].level+'</b></h5>'+
+                            '<h5 class="w3-text-black"><b>'+info[i].level+'</b></h5>'+
                             '<p class="w3-text-teal">'+info[i].trade+'</p>'+
                             '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+info[i].duration+'</h6>'+
                             '<p><i class="fa fa-institution w3-text-teal fa-fw w3-margin-right"></i>'+info[i].college+'</p>'+
@@ -86,7 +86,7 @@ function allSkills(){
         var info = result;
         $(".all-skill-placeholder").remove();
         for(var i=0; i<info.length; i++){   
-            var value = '<p clas="w3-text-black">'+info[i].skill+'</p>'+
+            var value = '<p>'+info[i].skill+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin">'+
                             '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:'+info[i].percent+'%">'+info[i].percent+'%</div>'+
                         '</div>'; 
