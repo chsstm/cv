@@ -35,7 +35,7 @@ function languages(){
         for(var i=0; i<info.length; i++){
             var value = '<p>'+info[i].language+'</p>'+
                         '<div class="w3-light-grey w3-round-xlarge">'+
-                            '<div class="w3-round-xlarge w3-teal" style="height:24px;width:'+info[i].percent+'%"></div>'+
+                            '<div class="w3-round-xlarge w3-teal" style="width:'+info[i].percent+'%"></div>'+
                         '</div>';
             $("#languages-div").append(value);
         }
