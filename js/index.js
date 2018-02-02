@@ -65,7 +65,7 @@ function workInfo(){
 }
 
 function hobbies(){
-    $.ajax({url : "data/languages.json", success : function(result){
+    $.ajax({url : "data/hobbies.json", success : function(result){
         var info = result;
         $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
