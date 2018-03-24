@@ -20,7 +20,7 @@ function languages(){
         $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
             var value = '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">'+
-                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 16px; line-height: 22px; height:22px; width:'+info[i].percent+'%">'+info[i].language+'</div>'+
+                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 14px; line-height: 22px; height:22px; width:'+info[i].percent+'%">'+info[i].language+'</div>'+
                         '</div>';
             $("#languages-div").append(value);
         }
@@ -69,8 +69,8 @@ function hobbies(){
         var info = result;
         $(".languages-placeholder").remove();
         for(var i=0; i<info.length; i++){
-            var value = '<div class="w3-light-grey w3-text-grey w3-center w3-round-xlarge w3-small w3-margin-bottom" style="height: 22px; line-height: 22px; border-left: 20px solid #009688;">'+                        
-                        info[i].hobby+
+            var value = '<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">'+
+                            '<div class="w3-container w3-center w3-round-xlarge w3-teal" style="font-size: 14px; line-height: 22px; height:22px; width:'+info[i].percent+'%">'+info[i].hobby+'</div>'+
                         '</div>';
             $("#hobbies-div").append(value);
         }
