@@ -47,7 +47,7 @@ function workInfo(){
         $(".work-placeholder").remove();
         for(var i=0; i<info.length; i++){ 
             var duration = "";
-            if(i == 0){
+            if(info[i].current == true){
                 duration = info[i].duration+' - <span class="w3-tag w3-teal w3-round">Current</span>';
             }else{
                 duration = info[i].duration;
@@ -60,6 +60,32 @@ function workInfo(){
                             '<hr>'+
                         '</div>';
             $("#work-div").append(value);
+        }
+    }});
+}
+
+function projects(){
+    $.ajax({url : "data/projects.json", success : function(result){
+        var project = result;
+        $(".work-placeholder").remove();
+        for(var i=0; i<project.length; i++){ 
+            var duration = project[i].duration;
+            var link = "";
+            if(project[i].running == true){
+                duration = project[i].duration+' - <span class="w3-tag w3-teal w3-round">Running</span>';
+            }
+            if(project[i].link != ''){
+                link = '<a target="new" href="'+project[i].link+'"><h6 class="w3-text-blue"><i class="fa fa-chain fa-fw w3-margin-right"></i>'+project[i].link+'</h6></a>';
+            }
+            var value = '<div class="w3-container">'+
+                            '<h5><b>'+project[i].title+' - '+project[i].role+'</b></h5>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-code fa-fw w3-margin-right"></i>'+project[i].skills+'</h6>'+
+                            link+
+                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+duration+'</h6>'+
+                            '<p>'+project[i].description+'</p>'+
+                            '<hr>'+
+                        '</div>';
+            $("#project-div").append(value);
         }
     }});
 }
@@ -129,6 +155,7 @@ function setInfo(){
     majorSkills();
     hobbies();
     workInfo();
+    projects();
     educationInfo();
     allSkills();
     socialMedias();

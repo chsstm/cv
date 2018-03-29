@@ -2,13 +2,15 @@
     {
         "role" : "Internship",
         "company" : "ChicMic, Mohali",
-        "duration" : "Jan 2018",
+        "duration" : "January 2018",
+        "current" : true,
         "description" : "I am currently at training and working for web designing and development on ReactJS framework."
     },
     {
         "role" : "Internship",
         "company" : "Softwizz, Bathinda",
         "duration" : "June 2016 - July 2016",
+        "current" : false,
         "description" : "I have completed 45 days of internship at this intstitute on Core Java and I developed a desktop applicaton for medical store."
     }
 ]
