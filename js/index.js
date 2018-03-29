@@ -1,6 +1,7 @@
 function basicInfo(){
     $.ajax({url : "data/basic.json", success: function(result){
         var info = result;
+        siteInfo(info.name,info.avatar);
         $(".basic-info-placeholder").remove();
         $("#avatar-div").html("<img src='images/"+info.avatar+"' style='width : 100%;'/>");
         $("#profile-name").html(info.name);
@@ -159,6 +160,11 @@ function setInfo(){
     educationInfo();
     allSkills();
     socialMedias();
+}
+
+function siteInfo(name,image){
+    document.title = name+" : CV";
+    $("#fav-icon").attr("href","images/"+image);
 }
 
 $(document).ready(function(){
