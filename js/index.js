@@ -55,6 +55,7 @@ function workInfo(){
             }  
             var value = '<div class="w3-container">'+
                             '<h5><b>'+info[i].role+'</b></h5>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-code fa-fw w3-margin-right"></i>'+info[i].skills+'</h6>'+
                             '<h6 class="w3-text-teal"><i class="fa fa-building fa-fw w3-margin-right"></i>'+info[i].company+'</h6>'+
                             '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+duration+'</h6>'+
                             '<p>'+info[i].description+'</p>'+

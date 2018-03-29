@@ -1,6 +1,7 @@
 [
     {
         "role" : "Internship",
+        "skills" : "React JS, React Native",
         "company" : "ChicMic, Mohali",
         "duration" : "January 2018",
         "current" : true,
@@ -8,6 +9,7 @@
     },
     {
         "role" : "Internship",
+        "skills" : "Core Java",
         "company" : "Softwizz, Bathinda",
         "duration" : "June 2016 - July 2016",
         "current" : false,

@@ -20,12 +20,16 @@
         "percent" : 90
     },
     {
-        "skill" : "JS",
+        "skill" : "Javascript",
         "percent" : 90
     },
     {
-        "skill" : "Javascript",
+        "skill" : "React JS",
         "percent" : 80
+    },
+    {
+        "skill" : "React Native",
+        "percent" : 70
     },
     {
         "skill" : "JQuery",
