@@ -8,8 +8,9 @@ function basicInfo(){
         $("#basic-info-div").append('<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.work+'</p>');
         $("#basic-info-div").append('<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.address+'</p>');
         $("#basic-info-div").append('<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.email+'</p>');
+        $("#basic-info-div").append('<p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-large w3-text-teal"></i>'+info.birthday+'</p>');
         for(var i=0; i<info.mobiles.length; i++){
-            var value = '<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><span class="flag-icon flag-icon-'+info.mobiles[i].country+'"></span> '+info.mobiles[i].number+'</p>';
+            var value = '<p><i class="fa fa-volume-control-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><span class="flag-icon flag-icon-'+info.mobiles[i].country+'"></span> '+info.mobiles[i].number+'</p>';
             $("#basic-info-div").append(value);
         }
     }});
@@ -42,56 +43,6 @@ function majorSkills(){
     }});
 }
 
-function workInfo(){
-    $.ajax({url : "data/work.json", success : function(result){
-        var info = result;
-        $(".work-placeholder").remove();
-        for(var i=0; i<info.length; i++){ 
-            var duration = "";
-            if(info[i].current == true){
-                duration = info[i].duration+' - <span class="w3-tag w3-teal w3-round">Current</span>';
-            }else{
-                duration = info[i].duration;
-            }  
-            var value = '<div class="w3-container">'+
-                            '<h5><b>'+info[i].role+'</b></h5>'+
-                            '<h6 class="w3-text-teal"><i class="fa fa-code fa-fw w3-margin-right"></i>'+info[i].skills+'</h6>'+
-                            '<h6 class="w3-text-teal"><i class="fa fa-building fa-fw w3-margin-right"></i>'+info[i].company+'</h6>'+
-                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+duration+'</h6>'+
-                            '<p>'+info[i].description+'</p>'+
-                            '<hr>'+
-                        '</div>';
-            $("#work-div").append(value);
-        }
-    }});
-}
-
-function projects(){
-    $.ajax({url : "data/projects.json", success : function(result){
-        var project = result;
-        $(".work-placeholder").remove();
-        for(var i=0; i<project.length; i++){ 
-            var duration = project[i].duration;
-            var link = "";
-            if(project[i].running == true){
-                duration = project[i].duration+' - <span class="w3-tag w3-teal w3-round">Running</span>';
-            }
-            if(project[i].link != ''){
-                link = '<a target="new" href="'+project[i].link+'"><h6 class="w3-text-blue"><i class="fa fa-chain fa-fw w3-margin-right"></i>'+project[i].link+'</h6></a>';
-            }
-            var value = '<div class="w3-container">'+
-                            '<h5><b>'+project[i].title+' - '+project[i].role+'</b></h5>'+
-                            '<h6 class="w3-text-teal"><i class="fa fa-code fa-fw w3-margin-right"></i>'+project[i].skills+'</h6>'+
-                            link+
-                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+duration+'</h6>'+
-                            '<p>'+project[i].description+'</p>'+
-                            '<hr>'+
-                        '</div>';
-            $("#project-div").append(value);
-        }
-    }});
-}
-
 function hobbies(){
     $.ajax({url : "data/hobbies.json", success : function(result){
         var info = result;
@@ -105,17 +56,78 @@ function hobbies(){
     }});    
 }
 
+function workInfo(){
+    $.ajax({url : "data/work.json", success : function(result){
+        var info = result;
+        $(".work-placeholder").remove();
+        for(var i=0; i<info.length; i++){ 
+            var duration = info[i].duration;
+            var hrColor = "lightgrey";
+            if(info[i].current == true){
+                duration = info[i].duration+' - <span class="w3-tag w3-teal w3-round">Current</span>';
+            }
+            if(i==info.length-1){
+                hrColor = "white";
+            }
+            var value = '<div class="w3-container">'+
+                            '<h5><b>'+info[i].role+'</b></h5>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-code fa-fw w3-margin-right"></i>'+info[i].skills+'</h6>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-building fa-fw w3-margin-right"></i>'+info[i].company+'</h6>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+duration+'</h6>'+
+                            '<p><i class="fa fa-quote-left fa-fw w3-text-teal w3-margin-right"></i>'+info[i].description+'</p>'+
+                            '<hr style="border-color:'+hrColor+'"/>'+
+                        '</div>';
+            $("#work-div").append(value);
+        }
+    }});
+}
+
+function projects(){
+    $.ajax({url : "data/projects.json", success : function(result){
+        var project = result;
+        $(".work-placeholder").remove();
+        for(var i=0; i<project.length; i++){ 
+            var duration = project[i].duration;
+            var link = "";
+            var hrColor = "lightgrey"
+            if(project[i].running == true){
+                duration = project[i].duration+' - <span class="w3-tag w3-teal w3-round">Running</span>';
+            }
+            if(project[i].link != ''){
+                link = '<a target="new" href="'+project[i].link+'"><h6 class="w3-text-blue"><i class="fa fa-chain fa-fw w3-margin-right"></i>'+project[i].link+'</h6></a>';
+            }
+            if(i==project.length-1){
+                hrColor = "white";
+            }
+            var value = '<div class="w3-container">'+
+                            '<h5><b>'+project[i].title+'</b></h5>'+
+                            '<h6 class="w3-text-teal"><b>'+project[i].role+'</b></h6>'+
+                            '<h6 class="w3-text-teal"><i class="fa fa-code fa-fw w3-margin-right"></i>'+project[i].skills+'</h6>'+
+                            link+
+                            '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+duration+'</h6>'+
+                            '<p><i class="fa fa-quote-left fa-fw w3-text-teal w3-margin-right"></i>'+project[i].description+'</p>'+
+                            '<hr style="border-color:'+hrColor+'"/>'+
+                        '</div>';
+            $("#project-div").append(value);
+        }
+    }});
+}
+
 function educationInfo(){
     $.ajax({url : "data/education.json", success : function(result){
         var info = result;
         $(".education-placeholder").remove();
         for(var i=0; i<info.length; i++){   
+            var hrColor = "lightgrey";
+            if(i==info.length-1){
+                hrColor = "white";
+            }
             var value = '<div class="w3-container">'+
-                            '<h5><b>'+info[i].level+'</b></h5>'+
-                            '<p class="w3-text-teal">'+info[i].trade+'</p>'+
+                            '<h6><b>'+info[i].level+'</b></h6>'+
+                            '<p class="w3-text-teal"><b>'+info[i].trade+'</b></p>'+
                             '<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>'+info[i].duration+'</h6>'+
                             '<p><i class="fa fa-institution w3-text-teal fa-fw w3-margin-right"></i>'+info[i].college+'</p>'+
-                            '<hr>'+
+                            '<hr style="border-color:'+hrColor+';"/>'+
                         '</div>';
             $("#education-div").append(value);
         }
@@ -137,6 +149,8 @@ function allSkills(){
                 $("#skill-right-div").append(value);
             }
         }
+        $("#skill-left-div").append("<hr style='border-color: white;'/>");
+        $("#skill-right-div").append("<hr style='border-color: white;'/>");
     }});
 }
 

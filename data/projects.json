@@ -1,12 +1,32 @@
 [
 	{
+		"title" : "Indian Emergency Response Portal - IERP",
+		"skills" : "HTML, CSS, JS, JQuery, PHP",
+		"platform" : "Webapp",
+		"duration" : "September 2017 - October 2017",
+		"running" : false,
+		"link" : "",
+		"role" : "Front End and Back End Developer",
+		"description" : "A web app to provide a interface to get emergency help of police, ambulance or other things. Live location tracking and live notifications."
+	},
+	{
 		"title" : "WiChat",
 		"skills" : "Core Java",
 		"platform" : "",
-		"duration" : "December 2017",
-		"running" : true,
+		"duration" : "December 2017 - January 2018",
+		"running" : false,
 		"link" : "",
-		"role" : "Developer",
-		"description" : "Whatsapp like chatting app."
+		"role" : "Front End and Back End Developer",
+		"description" : "Whatsapp like chatting app with database fetch. You can have personal as well as group chat."
+	},
+	{
+		"title" : "Bathinda Homeopathy",
+		"skills" : "Core Java",
+		"platform" : "",
+		"duration" : "June 2016 - July 2017",
+		"running" : false,
+		"link" : "",
+		"role" : "Front End and Back End Developer",
+		"description" : "A desktop application to manage medicines and its sale and stock for a homeopathy."
 	}
 ]
