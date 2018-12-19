@@ -17,7 +17,7 @@
     },
     {
         "skill": "Javascript (ES6)",
-        "percent": 90
+        "percent": 80
     },
     {
         "skill": "Typescript",
@@ -25,7 +25,7 @@
     },
     {
         "skill": "React JS",
-        "percent": 80
+        "percent": 85
     },
     {
         "skill": "React Native (Familiar with Redux, Saga, Axios, Thunk etc.)",
