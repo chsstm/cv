@@ -1,20 +1,20 @@
 [
     {
-        "level" : "Bachelor of Technology",
-        "trade" : "Computer Science and Engineering",
-        "college" : "Baba Farid College of Engineering and Technology, Bathinda, India",
-        "duration" : "2014 - 2018"
+        "level": "Bachelor of Technology",
+        "trade": "Computer Science and Engineering",
+        "college": "Baba Farid College of Engineering and Technology, Bathinda, India",
+        "duration": "2014 - 2018"
     },
     {
-        "level" : "Intermediate in Science (10+2)",
-        "trade" : "Intermediate in Science",
-        "college" : "Sagarmatha Higher Secondary School, Pokhara, Nepal",
-        "duration" : "2012 - 2014"
+        "level": "Intermediate in Science (10+2)",
+        "trade": "Intermediate in Science",
+        "college": "Sagarmatha Higher Secondary School, Pokhara, Nepal",
+        "duration": "2012 - 2014"
     },
     {
-        "level" : "School Leaving Certificate (10th)",
-        "trade" : "",
-        "college" : "Rampur English Boarding Higher Secondary School, Rampur-Palpa, Nepal",
-        "duration" : "2012"
+        "level": "School Leaving Certificate (10th)",
+        "trade": "",
+        "college": "Rampur English Boarding Higher Secondary School, Rampur-Palpa, Nepal",
+        "duration": "2012"
     }
 ]

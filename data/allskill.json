@@ -1,78 +1,66 @@
 [
     {
-        "skill" : "C/C++",
-        "percent" : 75
+        "skill": "C/C++",
+        "percent": 75
     },
     {
-        "skill" : "Java Core",
-        "percent" : 85
+        "skill": "Java Core",
+        "percent": 85
     },
     {
-        "skill" : "C#",
-        "percent" : 60
+        "skill": "HTML",
+        "percent": 90
     },
     {
-        "skill" : "HTML",
-        "percent" : 90
+        "skill": "CSS",
+        "percent": 90
     },
     {
-        "skill" : "CSS",
-        "percent" : 90
+        "skill": "Javascript (ES6)",
+        "percent": 90
     },
     {
-        "skill" : "Javascript",
-        "percent" : 90
+        "skill": "Typescript",
+        "percent": 80
     },
     {
-        "skill" : "React JS",
-        "percent" : 80
+        "skill": "React JS",
+        "percent": 80
     },
     {
-        "skill" : "React Native",
-        "percent" : 70
+        "skill": "React Native (Familiar with Redux, Saga, Axios, Thunk etc.)",
+        "percent": 70
     },
     {
-        "skill" : "JQuery",
-        "percent" : 80
+        "skill": "Firebase",
+        "percent": 75
     },
     {
-        "skill" : "AJAX",
-        "percent" : 95
+        "skill": "GrahpQL (Apollo Client/React Realy)",
+        "percent": 60
     },
     {
-        "skill" : "PHP",
-        "percent" : 70
+        "skill": "JQuery",
+        "percent": 80
     },
     {
-        "skill" : "SQL",
-        "percent" : 75
+        "skill": "AJAX",
+        "percent": 95
     },
     {
-        "skill" : "Blender",
-        "percent" : 60
+        "skill": "PHP",
+        "percent": 70
     },
     {
-        "skill" : "Unity Game Engine",
-        "percent" : 40
+        "skill": "SQL",
+        "percent": 75
     },
     {
-        "skill" : "Auto CAD",
-        "percent" : 60
+        "skill": "Bootstrap",
+        "percent": 80
     },
     {
-        "skill" : "Bootstrap",
-        "percent" : 80
-    },
-    {
-        "skill" : "P5.JS",
-        "percent" : 80
-    },
-    {
-        "skill" : "Processing",
-        "percent" : 60
-    },
-    {
-        "skill" : "Android",
-        "percent" : 40
+        "skill": "P5.JS",
+        "percent": 80
     }
 ]

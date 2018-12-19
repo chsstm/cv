@@ -1,22 +1,22 @@
 [
     {
-        "icon" : "facebook-official",
-        "link" : "https://www.facebook.com/chsstm"
+        "icon": "facebook-official",
+        "link": "https://www.facebook.com/chsstm"
     },
     {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/chsstm"
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/chsstm"
     },
     {
-        "icon" : "github",
-        "link" : "https://www.github.com/chsstm"
+        "icon": "github",
+        "link": "https://www.github.com/chsstm"
     },
     {
-        "icon" : "twitter",
-        "link" : "https://www.twitter.com/saimonthada"
+        "icon": "twitter",
+        "link": "https://www.twitter.com/saimonthada"
     },
     {
-        "icon" : "instagram",
-        "link" : "https://www.instagram.com/chsstm"
+        "icon": "instagram",
+        "link": "https://www.instagram.com/chsstm"
     }
 ]
