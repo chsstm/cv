@@ -61,7 +61,7 @@
 	},
 	{
 		"title": "WiChat",
-		"skills": "Core Java",
+		"skills": "Core Java, JDBC, MySQL",
 		"platform": "",
 		"duration": "December 2017 - January 2018",
 		"running": false,
@@ -81,7 +81,7 @@
 	},
 	{
 		"title": "Bathinda Homeopathy",
-		"skills": "Core Java",
+		"skills": "Core Java, JDBC, MySQL",
 		"platform": "",
 		"duration": "June 2016 - July 2016",
 		"running": false,
