@@ -1,10 +1,18 @@
 [
     {
+        "role": "Senior Software Engineer",
+        "skills": "MERN Stack",
+        "company": "GHack, Bangalore",
+        "duration": "July 2019",
+        "current": true,
+        "description": "My designation is a Senior Software Engineer. I work as a MERN stack developer developing native android and iOS apps and supporting the products of GHack Technologies."
+    },
+    {
         "role": "Associate Software Engineer",
         "skills": "React Native",
         "company": "ChicMic, Mohali",
-        "duration": "July 2018",
-        "current": true,
+        "duration": "July 2018 - July 2019",
+        "current": false,
         "description": "My designation is a Associate Software Engineer. I work as a React Native developer developing native android and iOS apps."
     },
     {
