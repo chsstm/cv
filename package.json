@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/chsstm/cv",
+  "homepage": "https://chsstm.github.io/cv",
   "dependencies": {
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
