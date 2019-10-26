@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/chsstm/cv/static/css/main.023db275.chunk.css",
-    "main.js": "/chsstm/cv/static/js/main.b748783a.chunk.js",
-    "main.js.map": "/chsstm/cv/static/js/main.b748783a.chunk.js.map",
-    "runtime-main.js": "/chsstm/cv/static/js/runtime-main.1f8661da.js",
-    "runtime-main.js.map": "/chsstm/cv/static/js/runtime-main.1f8661da.js.map",
-    "static/css/2.9fa544fe.chunk.css": "/chsstm/cv/static/css/2.9fa544fe.chunk.css",
-    "static/js/2.1791c383.chunk.js": "/chsstm/cv/static/js/2.1791c383.chunk.js",
-    "static/js/2.1791c383.chunk.js.map": "/chsstm/cv/static/js/2.1791c383.chunk.js.map",
-    "index.html": "/chsstm/cv/index.html",
-    "precache-manifest.ef7047f0f6c7b2c2d62f23fec80d1908.js": "/chsstm/cv/precache-manifest.ef7047f0f6c7b2c2d62f23fec80d1908.js",
-    "service-worker.js": "/chsstm/cv/service-worker.js",
-    "static/css/2.9fa544fe.chunk.css.map": "/chsstm/cv/static/css/2.9fa544fe.chunk.css.map",
-    "static/css/main.023db275.chunk.css.map": "/chsstm/cv/static/css/main.023db275.chunk.css.map",
-    "static/media/font-awesome.css": "/chsstm/cv/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/photo.jpg": "/chsstm/cv/static/media/photo.854409eb.jpg"
+    "main.css": "/chsstm/cv/tree/gh-pages/static/css/main.023db275.chunk.css",
+    "main.js": "/chsstm/cv/tree/gh-pages/static/js/main.02f9ef68.chunk.js",
+    "main.js.map": "/chsstm/cv/tree/gh-pages/static/js/main.02f9ef68.chunk.js.map",
+    "runtime-main.js": "/chsstm/cv/tree/gh-pages/static/js/runtime-main.3db17827.js",
+    "runtime-main.js.map": "/chsstm/cv/tree/gh-pages/static/js/runtime-main.3db17827.js.map",
+    "static/css/2.5e6646c2.chunk.css": "/chsstm/cv/tree/gh-pages/static/css/2.5e6646c2.chunk.css",
+    "static/js/2.1791c383.chunk.js": "/chsstm/cv/tree/gh-pages/static/js/2.1791c383.chunk.js",
+    "static/js/2.1791c383.chunk.js.map": "/chsstm/cv/tree/gh-pages/static/js/2.1791c383.chunk.js.map",
+    "index.html": "/chsstm/cv/tree/gh-pages/index.html",
+    "precache-manifest.665c3811712a844a2ff51d69a592caa9.js": "/chsstm/cv/tree/gh-pages/precache-manifest.665c3811712a844a2ff51d69a592caa9.js",
+    "service-worker.js": "/chsstm/cv/tree/gh-pages/service-worker.js",
+    "static/css/2.5e6646c2.chunk.css.map": "/chsstm/cv/tree/gh-pages/static/css/2.5e6646c2.chunk.css.map",
+    "static/css/main.023db275.chunk.css.map": "/chsstm/cv/tree/gh-pages/static/css/main.023db275.chunk.css.map",
+    "static/media/font-awesome.css": "/chsstm/cv/tree/gh-pages/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/photo.jpg": "/chsstm/cv/tree/gh-pages/static/media/photo.854409eb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f8661da.js",
-    "static/css/2.9fa544fe.chunk.css",
+    "static/js/runtime-main.3db17827.js",
+    "static/css/2.5e6646c2.chunk.css",
     "static/js/2.1791c383.chunk.js",
     "static/css/main.023db275.chunk.css",
-    "static/js/main.b748783a.chunk.js"
+    "static/js/main.02f9ef68.chunk.js"
   ]
 }
