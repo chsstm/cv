@@ -1,0 +1,9 @@
+export { default as AllSkills } from './allSkills';
+export { default as Basics } from './basics';
+export { default as Educations } from './educations';
+export { default as Hobbies } from './hobbies';
+export { default as Languages } from './languages';
+export { default as MajorSkills } from './majorSkills';
+export { default as Projects } from './projects';
+export { default as SocialMedias } from './socialMedias';
+export { default as Works } from './works';

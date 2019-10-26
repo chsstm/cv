@@ -1,11 +1,11 @@
-[
+export default [
     {
         "skill": "Native App Development (React Native)",
         "percent": 85
     },
     {
         "skill": "Programming",
-        "percent": 80
+        "percent": 90
     },
     {
         "skill": "Web Designing",
@@ -13,10 +13,6 @@
     },
     {
         "skill": "Web Development",
-        "percent": 80
-    },
-    {
-        "skill": "Microsoft Office",
-        "percent": 75
+        "percent": 90
     }
 ]

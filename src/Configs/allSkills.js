@@ -1,4 +1,4 @@
-[
+export default [
     {
         "skill": "C/C++",
         "percent": 75
@@ -12,8 +12,16 @@
         "percent": 90
     },
     {
-        "skill": "CSS",
+        "skill": "CSS/SCSS",
         "percent": 90
+    },
+    {
+        "skill": "Bootstrap",
+        "percent": 80
+    },
+    {
+        "skill": "Material UI",
+        "percent": 75
     },
     {
         "skill": "Javascript (ES6)",
@@ -28,8 +36,8 @@
         "percent": 85
     },
     {
-        "skill": "React Native (Familiar with Redux, Saga, Axios, Thunk etc.)",
-        "percent": 70
+        "skill": "React Native (Redux, Saga, Axios, Thunk etc.)",
+        "percent": 80
     },
     {
         "skill": "Firebase",
@@ -52,12 +60,12 @@
         "percent": 70
     },
     {
-        "skill": "SQL",
-        "percent": 75
+        "skill": "Node.JS (Express Framework)",
+        "percent": 60
     },
     {
-        "skill": "Bootstrap",
-        "percent": 80
+        "skill": "SQL",
+        "percent": 75
     },
     {
         "skill": "P5.JS",

@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+
+import { Landing } from '../Components/Layouts';
 
 function App() {
   return (
-    <div>
-      hello
-    </div>
+    <Landing />
   );
 }
 

@@ -1,4 +1,4 @@
-[
+export default [
     {
         "language": "English",
         "percent": 80

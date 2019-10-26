@@ -1,4 +1,4 @@
-[
+export default [
     {
         "icon": "facebook-official",
         "link": "https://www.facebook.com/chsstm"
