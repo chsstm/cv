@@ -1,0 +1,22 @@
+[
+    {
+        "skill": "Native App Development (React Native)",
+        "percent": 85
+    },
+    {
+        "skill": "Programming",
+        "percent": 80
+    },
+    {
+        "skill": "Web Designing",
+        "percent": 90
+    },
+    {
+        "skill": "Web Development",
+        "percent": 80
+    },
+    {
+        "skill": "Microsoft Office",
+        "percent": 75
+    }
+]
