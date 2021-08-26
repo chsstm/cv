@@ -14,6 +14,7 @@
 		"skills": "React Native",
 		"platform": "Android and iOS",
 		"duration": "November 2018 - March 2019",
+		"running": false,
 		"link": "",
 		"role": "Front End Developer",
 		"description": "It is a Tinder like app for both android and iOS users to offer different offers like movies, exibitions, dinner, and many more to eachother. It has matching functionality like Tinder which allows users to chat each other."
@@ -24,6 +25,7 @@
 		"platform": "Android and iOS",
 		"duration": "August 2018 - October 2018",
 		"running": false,
+		"link": "",
 		"role": "Front End Developer",
 		"description": "It is an android and iOS app for employees of certain company which helps to manage employee services. Employees can request for certain service and will be handled by the assigned agents. Different requests like: Booking meeting room, booking drinking service, cab service, maintenance, supplies, IT support etc."
 	},
@@ -33,6 +35,7 @@
 		"platform": "Android and iOS",
 		"duration": "June 2018 - August 2018",
 		"running": false,
+		"link": "",
 		"role": "Front End Developer",
 		"description": "It is an android and iOS app developed to manage photos in our mobile storage with different actions like sorting, image tagging, and getting different image details."
 	},
@@ -52,6 +55,7 @@
 		"platform": "Android and iOS",
 		"duration": "April 2018 - May 2018",
 		"running": false,
+		"link": "",
 		"role": "Front End Developer",
 		"description": "It is a learning app. It basically teaches you Python programming language with different topics divided into modules. It will provide you basics and take you through certain test to track your achievements."
 	},
