@@ -13,7 +13,7 @@
         "company": "ChicMic, Mohali",
         "duration": "July 2018 - July 2019",
         "current": false,
-        "description": "My designation is a Associate Software Engineer. I work as a React Native developer developing native android and iOS apps."
+        "description": "My designation was a Associate Software Engineer. I worked as a ReactJS/Native developer developing native android and iOS apps."
     },
     {
         "role": "Internship",
@@ -21,7 +21,7 @@
         "company": "ChicMic, Mohali",
         "duration": "January 2018 - June 2018",
         "current": false,
-        "description": "I am currently at training and working for web designing and development on ReactJS framework."
+        "description": "I was in internship, working for web designing and development on ReactJS framework."
     },
     {
         "role": "Internship",
@@ -29,6 +29,6 @@
         "company": "Softwizz Software Solutions Pvt. Ltd., Bathinda",
         "duration": "June 2016 - July 2016",
         "current": false,
-        "description": "I have completed 45 days of internship at this intstitute on Core Java and I developed a desktop applicaton for medical store."
+        "description": "I had completed 45 days of internship at this intstitute on Core Java and I developed a desktop applicaton for medical store."
     }
 ]
