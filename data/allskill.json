@@ -5,7 +5,7 @@
     },
     {
         "skill": "Java Core",
-        "percent": 85
+        "percent": 75
     },
     {
         "skill": "HTML",
@@ -38,29 +38,5 @@
     {
         "skill": "GrahpQL (Apollo Client/React Realy)",
         "percent": 80
-    },
-    {
-        "skill": "JQuery",
-        "percent": 80
-    },
-    {
-        "skill": "AJAX",
-        "percent": 95
-    },
-    {
-        "skill": "PHP",
-        "percent": 80
-    },
-    {
-        "skill": "SQL",
-        "percent": 80
-    },
-    {
-        "skill": "Bootstrap",
-        "percent": 90
-    },
-    {
-        "skill": "P5.JS",
-        "percent": 85
     }
 ]
