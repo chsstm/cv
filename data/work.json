@@ -1,17 +1,27 @@
 [
+        {
+        "role": "Senior Member of Technical Staff",
+        "skills": "Full Stack",
+        "company": "Oracle India, Bangalore",
+        "start": "April 2022",
+        "current": true,
+        "description": "My designation is a Senior Member of Technical Staff. I work as a full stack developer in Database Sustaining Engineering team."
+    },
     {
         "role": "Senior Software Engineer",
-        "skills": "MERN Stack",
-        "company": "GHack, Bangalore",
-        "duration": "July 2019",
-        "current": true,
-        "description": "My designation is a Senior Software Engineer. I work as a MERN stack developer developing native android and iOS apps and supporting the products of GHack Technologies."
+        "skills": "MERN Stack and Game Developer",
+        "company": "EWar Games (GHack Technologies), Bangalore",
+        "start": "July 2019",
+        "end": "March 2022",
+        "current": false,
+        "description": "My designation was a Senior Software Engineer. I worked as a MERN stack developer developing native android and iOS apps and supporting the products of GHack Technologies. I was leading the game development team for EWar Games (product of GHack)"
     },
     {
         "role": "Associate Software Engineer",
         "skills": "React Native",
         "company": "ChicMic, Mohali",
-        "duration": "July 2018 - July 2019",
+        "start": "July 2018",
+        "end": "July 2019",
         "current": false,
         "description": "My designation was a Associate Software Engineer. I worked as a ReactJS/Native developer developing native android and iOS apps."
     },
@@ -19,7 +29,8 @@
         "role": "Internship",
         "skills": "React JS, React Native",
         "company": "ChicMic, Mohali",
-        "duration": "January 2018 - June 2018",
+        "start": "January 2018",
+        "end": "June 2018",
         "current": false,
         "description": "I was in internship, working for web designing and development on ReactJS framework."
     },
@@ -27,7 +38,8 @@
         "role": "Internship",
         "skills": "Core Java",
         "company": "Softwizz Software Solutions Pvt. Ltd., Bathinda",
-        "duration": "June 2016 - July 2016",
+        "start": "June 2016",
+        "end": "July 2016",
         "current": false,
         "description": "I had completed 45 days of internship at this intstitute on Core Java and I developed a desktop applicaton for medical store."
     }

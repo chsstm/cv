@@ -1,9 +1,5 @@
 [
     {
-        "title": "Native App Development (React Native)",
-        "percent": 85
-    },
-    {
         "title": "Programming",
         "percent": 90
     },
@@ -13,6 +9,10 @@
     },
     {
         "title": "Web Development",
+        "percent": 90
+    },
+    {
+        "title": "Native App Development (React Native)",
         "percent": 90
     },
     {
