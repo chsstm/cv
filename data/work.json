@@ -1,10 +1,18 @@
 [
-        {
+    {
+        "role": "Principal Member of Technical Staff",
+        "skills": "Full Stack",
+        "company": "Oracle India, Bangalore",
+        "start": "September 2025",
+        "current": true,
+        "description": "My designation is a Principal Member of Technical Staff. I work as a full stack developer in Database Sustaining Engineering team."
+    },
+    {
         "role": "Senior Member of Technical Staff",
         "skills": "Full Stack",
         "company": "Oracle India, Bangalore",
         "start": "April 2022",
-        "current": true,
+        "end": "September 2025",
         "description": "My designation is a Senior Member of Technical Staff. I work as a full stack developer in Database Sustaining Engineering team."
     },
     {
